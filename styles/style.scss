@@ -1,0 +1,11 @@
+$primaryButton : rgb(37, 128, 145);
+
+header{
+    background: blue;
+    display: flex;
+    justify-content: center;
+
+    > button {
+        background-color: $primaryButton;
+    }
+}
